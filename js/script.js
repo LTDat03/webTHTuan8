@@ -6,7 +6,7 @@ $(document).ready(function () {
     var numService = document.querySelectorAll(
       'input[type="checkbox"]:checked'
     );
-    var specialist = document.getElementById("specialistSelect").value;
+    var specialist = document.getElementById("specialist").value;
     var newPatient =
       "<tr><td>" +
       1 +
