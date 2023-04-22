@@ -23,4 +23,8 @@ $(document).ready(function () {
       "</td></tr>";
     document.querySelector(".table").innerHTML += newPatient;
   });
+
+  $("#modal").on("hidden.bs.modal", function () {
+    $(this).find("form").trigger("reset");
+  });
 });
